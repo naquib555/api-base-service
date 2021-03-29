@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.5.6.106;database=cbc
+    username: cbc
+    password: 12345678
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    # Initialize the datasource with available DDL and DML scripts
+    initialization-mode: always
